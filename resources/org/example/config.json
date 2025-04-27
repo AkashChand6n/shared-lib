@@ -1,0 +1,10 @@
+{
+  "env": "production",           // Environment (e.g., production, staging, etc.)
+  "appName": "my-cool-app",      // Name of the application
+  "retryCount": 3,               // Number of retries in case of failure
+  "deployTarget": "us-east-1",   // Deployment target (e.g., AWS region, server, etc.)
+  "notifyEmails": [
+    "devops@example.com",        // List of email addresses to notify after build
+    "teamlead@example.com"
+  ]
+}
